@@ -17,25 +17,6 @@ function HomePage() {
           fontFamily: 'Arial, Helvetica, cursive',
           color: 'rgb(243, 103, 123)',
           marginBottom: '10rem'
-function HomePage() {
-  return (
-    <div
-      style={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        flexDirection: 'column',
-        alignItems: 'center'
-      }}
-    >
-      <h1 style={{ fontFamily: '"Comic Sans MS", fantasy', color: '#4b9be1' }}>
-        {"nopuppy's website"}
-      </h1>
-      <h2
-        style={{
-          fontFamily: 'Arial, Helvetica, cursive',
-          color: 'rgb(243, 103, 123)',
-          marginBottom: '10rem'
         }}
       >
         click the buttons below
