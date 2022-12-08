@@ -29,7 +29,7 @@ function HomePage() {
           background: 'blue',
           color: 'white'
         }}
-        onClick={() => alert('Hello there')}
+        onClick={() => alert(Hello)}
       >
         Welcome
       </button>
@@ -43,15 +43,15 @@ function HomePage() {
           marginTop: '2rem'
         }}
         onClick={() => {
-          let name = prompt("What's your name?");
+          let name = prompt("What's your favorite food?");
           if (name) {
-            alert('Nice to meet you, ' + name + '!');
+            alert('I like, ' + name  + ' too' + '!');
           } else {
-            alert('Nice to meet you, stranger');
+            alert('Cool food!');
           }
         }}
       >
-        {"What's your name?"}
+        {"What's your favorite food?"}
       </button>
     </div>
   );
