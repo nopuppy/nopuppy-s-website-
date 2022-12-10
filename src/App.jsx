@@ -29,7 +29,7 @@ function HomePage() {
           background: 'blue',
           color: 'white'
         }}
-        onClick={() => alert(Hello)}
+        onClick={() => alert('Hello there')}
       >
         Welcome
       </button>
@@ -52,6 +52,27 @@ function HomePage() {
         }}
       >
         {"What's your favorite food?"}
+      </button>
+       <button
+        style={{
+          fontFamily: 'monospace',
+          padding: '1rem',
+          fontSize: '2rem',
+          background: 'orange',
+          color: 'white',
+          marginTop: '2rem'
+        }}
+        onClick={() => {
+          let name = prompt("What game do you like the most?");
+          if (name) {
+            alert('I like, ' + name  + ' too' + '!'),
+              alert('Fun game!');
+          } else {
+            alert('Can you type agian?!');
+          }
+        }}
+      >
+        {"What game do you like the most?"}
       </button>
     </div>
   );
